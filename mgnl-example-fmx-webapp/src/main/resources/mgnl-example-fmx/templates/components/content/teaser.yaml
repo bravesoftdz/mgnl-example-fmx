@@ -1,0 +1,5 @@
+templateScript:                                            /mgnl-example-fmx/templates/components/content/teaser.fmx
+renderType:                                                freemarker
+title:                                                     'Teaser'
+dialog:                                                    mgnl-example-fmx:components/content/teaser
+modelClass:                                                example.components.content.TeaserModel

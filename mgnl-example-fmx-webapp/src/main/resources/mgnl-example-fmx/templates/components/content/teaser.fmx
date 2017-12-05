@@ -1,0 +1,9 @@
+<div class="c-teaser">
+  <h2 fmx:depends="model.title?has_content"><a href="${model.link.target}" fmx:wrap="model.link?has_content">${model.title}</a></h2>
+  <ul fmx:depends="model.list?has_content">
+    <li fmx:list="model.list">${it.text}</li>
+  </ul>
+  <div class="c-description" fmx:depends="model.text?has_content">
+    ${model.text}
+  </div>
+</div>

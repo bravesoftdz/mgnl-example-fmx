@@ -1,0 +1,10 @@
+* {
+  font-family:      Arial;
+}
+
+.c-teaser {
+  border:           1px solid gray;
+  padding:          1em;
+  border-radius:    5px;
+  margin-bottom:    1em;
+}

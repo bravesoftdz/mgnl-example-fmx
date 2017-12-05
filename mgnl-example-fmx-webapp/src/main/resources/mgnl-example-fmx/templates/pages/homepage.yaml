@@ -1,0 +1,16 @@
+templateScript:                                            /mgnl-example-fmx/templates/pages/homepage.fmx
+renderType:                                                freemarker
+visible:                                                   true
+title:                                                     'FMX Homepage'
+
+
+areas:
+
+  main:
+    editable:                                              true
+    enabled:                                               true
+    renderType:                                            freemarker
+    title:                                                 'Main'
+    availableComponents:
+      teaser:
+        id:                                                mgnl-example-fmx:components/content/teaser
