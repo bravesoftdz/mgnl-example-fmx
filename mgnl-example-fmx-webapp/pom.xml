@@ -15,7 +15,7 @@
   <packaging>war</packaging>
 
   <properties>
-    <version-tomcat>9.0.2</version-tomcat>
+    <version-tomcat>9.0.1</version-tomcat>
   </properties>
   
   <dependencies>
@@ -44,7 +44,7 @@
     <dependency>
       <groupId>com.kasisoft.mgnl</groupId>
       <artifactId>ks-mgnl-jcx</artifactId>
-      <version>0.3</version>
+      <version>0.4</version>
     </dependency>
 
     <!--
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>com.kasisoft.mgnl</groupId>
       <artifactId>ks-mgnl-fmx</artifactId>
-      <version>0.3</version>
+      <version>0.6</version>
     </dependency>
 
   </dependencies>
