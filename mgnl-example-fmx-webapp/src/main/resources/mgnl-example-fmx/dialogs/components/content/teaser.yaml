@@ -1,11 +1,10 @@
 form:
-  label:                                                   component.richtext.title
-  i18nBasename:                                            mgnl-components-messages
+  label:                                                   'Teaser'
   tabs:
   
     # tab main
     - name:                                                tabMain
-      label:                                               tab.main.label
+      label:                                               'Main'
       fields:
       
         - name:                                            title
